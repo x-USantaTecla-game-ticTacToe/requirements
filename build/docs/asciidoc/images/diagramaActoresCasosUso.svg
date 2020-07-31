@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="195px" preserveAspectRatio="none" style="width:248px;height:195px;" version="1.1" viewBox="0 0 248 195" width="248px" zoomAndPan="magnify"><defs><filter height="300%" id="frgap87fu7hke" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[de2effd8dc5bf946a609466312d0f75f]
+entity Player--><ellipse cx="111" cy="14" fill="#FEFECE" filter="url(#frgap87fu7hke)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M111,22 L111,49 M98,30 L124,30 M111,49 L98,64 M111,49 L124,64 " fill="none" filter="url(#frgap87fu7hke)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="91" y="84.0332">Player</text><ellipse cx="30.2132" cy="162.9517" fill="#FEFECE" filter="url(#frgap87fu7hke)" rx="24.2132" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="15.2132" y="168.2564">Start</text><ellipse cx="111.0919" cy="162.9517" fill="#FEFECE" filter="url(#frgap87fu7hke)" rx="22.0919" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="97.5919" y="168.2564">Play</text><ellipse cx="199.7843" cy="162.9517" fill="#FEFECE" filter="url(#frgap87fu7hke)" rx="31.2843" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="179.7843" y="168.2564">Result</text><!--MD5=[39353cd92ba960c69c4d2a9385fee2c7]
+link Player to Start--><path d="M90.9775,75.427 C75.8616,96.8879 55.581,125.6813 42.6482,144.0426 " fill="none" id="Player-&gt;Start" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="39.5262,148.4752,47.9791,143.4206,42.4054,144.3874,41.4386,138.8138,39.5262,148.4752" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9a505df3ac87f02537cb93af365c2474]
+link Player to Play--><path d="M111,87.5447 C111,106.0898 111,127.2191 111,142.2195 " fill="none" id="Player-&gt;Play" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="111,147.4525,115,138.4525,111,142.4525,107,138.4525,111,147.4525" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[50fa493b18ddf617f1898be6efab284a]
+link Player to Result--><path d="M131.195,73.095 C147.979,94.7819 171.416,125.0659 186.145,144.0976 " fill="none" id="Player-&gt;Result" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="189.331,148.214,186.9862,138.6483,186.2709,144.2598,180.6595,143.5445,189.331,148.214" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[19a91e2dd92d5b2c7be13aabff865c13]
+@startuml
+
+actor Player
+usecase Start
+usecase Play
+usecase Result
+
+Player - -> Start
+Player - -> Play
+Player - -> Result
+
+@enduml
+
+PlantUML version 1.2020.15(Sun Jun 28 13:39:45 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: windows-1252
+Language: es
+Country: ES
+--></g></svg>

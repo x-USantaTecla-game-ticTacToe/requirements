@@ -49,7 +49,7 @@ Player --> Result
 ....
 
 a|
-[plantuml,diagtamaContexto,svg]
+[plantuml,diagramaContexto,svg]
 ....
 
 [*] --> State0
