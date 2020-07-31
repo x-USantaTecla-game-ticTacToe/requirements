@@ -16,7 +16,7 @@
 <div class="details">
 <span id="author" class="author">Santa Tecla</span><br>
 <span id="email" class="email"><a href="mailto:parqueNaturalSantaTecla@gmail.com">parqueNaturalSantaTecla@gmail.com</a></span><br>
-<span id="revnumber">version 0.1.0</span>
+<span id="revnumber">version 0.1.1</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Índice</div>
@@ -66,7 +66,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/Dibujo.jpg" alt="Dibujo">
+<img src="build/docs/asciidoc/images/Dibujo.jpg" alt="Dibujo" width="300" height="300">
 </div>
 </div></div></td>
 </tr>
@@ -97,7 +97,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/diagtamaContexto.svg" alt="diagtamaContexto" width="364" height="504">
+<img src="build/docs/asciidoc/images/diagramaContexto.svg" alt="diagramaContexto" width="364" height="504">
 </div>
 </div></div></td>
 </tr>
@@ -394,8 +394,8 @@ X Player: You win!!! :-)</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.1.0<br>
-Last updated 2020-07-28 09:35:00 +0200
+Version 0.1.1<br>
+Last updated 2020-07-31 17:30:00 +0200
 </div>
 </div>
 </html>
