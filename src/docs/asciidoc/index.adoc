@@ -1,4 +1,4 @@
-= TicTacToe. Requisitos 1. *Básica*
+= TicTacToe. Requisitos 2. *Gráficos*
 Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
@@ -15,7 +15,7 @@ Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 a|
 - link:https://en.wikipedia.org/wiki/Tic-tac-toe[*Wiki*]
 * _Funcionalidad: **Básica**_
-* _Interfaz: **Texto**_
+* _Interfaz: **Gráfica y Texto**_
 * _Distribución: **Standalone**_
 * _Persistencia: **No**_
 

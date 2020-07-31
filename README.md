@@ -12,11 +12,11 @@
 </head>
 <body class="book">
 <div id="header">
-<h1>TicTacToe. Requisitos 1. <strong>Básica</strong></h1>
+<h1>TicTacToe. Requisitos 2. <strong>Gráficos</strong></h1>
 <div class="details">
 <span id="author" class="author">Santa Tecla</span><br>
 <span id="email" class="email"><a href="mailto:parqueNaturalSantaTecla@gmail.com">parqueNaturalSantaTecla@gmail.com</a></span><br>
-<span id="revnumber">version 0.1.0</span>
+<span id="revnumber">version 0.2.0</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Índice</div>
@@ -51,7 +51,7 @@
 <p><em>Funcionalidad: <strong>Básica</strong></em></p>
 </li>
 <li>
-<p><em>Interfaz: <strong>Texto</strong></em></p>
+<p><em>Interfaz: <strong>Gráfica y Texto</strong></em></p>
 </li>
 <li>
 <p><em>Distribución: <strong>Standalone</strong></em></p>
@@ -105,6 +105,31 @@
 </table>
 <div class="sect2">
 <h3 id="prototipo-de-interfaz">Prototipo de Interfaz</h3>
+<div class="sect3">
+<h4 id="gráfica">Gráfica</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/pantallas.png" alt="pantallas">
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/dialogos.png" alt="dialogos">
+</div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="consola">Consola</h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -392,10 +417,11 @@ X Player: You win!!! :-)</pre>
 </div>
 </div>
 </div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Version 0.1.0<br>
-Last updated 2020-07-28 09:35:00 +0200
+Version 0.2.0<br>
+Last updated 2020-07-31 17:20:00 +0200
 </div>
 </div>
 </html>
