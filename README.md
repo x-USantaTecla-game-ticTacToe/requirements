@@ -12,11 +12,11 @@
 </head>
 <body class="book">
 <div id="header">
-<h1>TicTacToe. Requisitos 4. <strong>Cliente/Servidor</strong></h1>
+<h1>TicTacToe. Requisitos 5. <strong>Ficheros</strong></h1>
 <div class="details">
 <span id="author" class="author">Santa Tecla</span><br>
 <span id="email" class="email"><a href="mailto:parqueNaturalSantaTecla@gmail.com">parqueNaturalSantaTecla@gmail.com</a></span><br>
-<span id="revnumber">version 0.4.0</span>
+<span id="revnumber">version 0.5.0</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Índice</div>
@@ -54,10 +54,10 @@
 <p><em>Interfaz: <strong class="line-through">Gráfica</strong> y <strong>Texto</strong></em></p>
 </li>
 <li>
-<p><em>Distribución: <strong>Standalone</strong> + <span class="lime-background"><strong>Client/Server</strong></span></em></p>
+<p><em>Distribución: <strong>Standalone</strong> + <strong>Client/Server</strong></em></p>
 </li>
 <li>
-<p><em>Persistencia: <strong>No</strong></em></p>
+<p><em>Persistencia: <span class="lime-background"><strong>Ficheros</strong></span></em></p>
 </li>
 </ul>
 </div>
@@ -115,14 +115,19 @@
 <td class="tableblock halign-left valign-top"><div class="content"><div class="literalblock">
 <div class="content">
 <pre>-------------------- TIC TAC TOE --------------------
+----- Choose one option -----
+1) Start a new game
+2) Open a saved game
+1
 Number of users [0-2] 1
 ----- Choose one option -----
 1) Do a movement
+2) Exit game
 1
 -----------------------------------------------------
 | - | - | - |
 | - | - | - |
-| - | - | - |
+| - | - | - | 
 -----------------------------------------------------
 Enter a coordinate to put a token:
 Row: 1
@@ -130,116 +135,102 @@ Column: 1
 -----------------------------------------------------
 | X | - | - |
 | - | - | - |
-| - | - | - | 
------------------------------------------------------
------ Choose one option -----
-1) Do a movement
-1
------------------------------------------------------
-| X | - | - |
 | - | - | - |
-| - | - | - |
------------------------------------------------------
------------------------------------------------------
-| X | - | - |
-| - | - | - | 
-| - | - | O |
 -----------------------------------------------------
 ----- Choose one option -----
 1) Do a movement
 2) Undo previous movement
+3) Exit game
 1
 -----------------------------------------------------
 | X | - | - |
 | - | - | - |
-| - | - | O |
+| - | - | - |
+-----------------------------------------------------
+-----------------------------------------------------
+| X | - | O |
+| - | - | - |
+| - | - | - | 
+-----------------------------------------------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+1
+-----------------------------------------------------
+| X | - | O |
+| - | - | - |
+| - | - | - |
 -----------------------------------------------------
 Enter a coordinate to put a token:
-Row: 1
-Column: 2
+Row: 2
+Column: 1
 -----------------------------------------------------
-| X | X | - |
+| X | - | O |
+| X | - | - | 
 | - | - | - |
-| - | - | O |
 -----------------------------------------------------
 ----- Choose one option -----
 1) Do a movement
 2) Undo previous movement
-2
+3) Exit game
+1
 -----------------------------------------------------
+| X | - | O |
 | X | - | - |
 | - | - | - |
-| - | - | O |
+-----------------------------------------------------
+-----------------------------------------------------
+| X | - | O |
+| X | - | O |
+| - | - | - |
 -----------------------------------------------------
 ----- Choose one option -----
 1) Do a movement
 2) Undo previous movement
-3) Redo previous movement
+3) Exit game
 3
------------------------------------------------------
-| X | X | - |
-| - | - | - |
-| - | - | O |
------------------------------------------------------</pre>
+Do you want to save the game?? (y/n): y
+Name: juego2</pre>
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="literalblock">
 <div class="content">
-<pre>----- Choose one option -----
-1) Do a movement
-2) Undo previous movement
-1
------------------------------------------------------
-| X | X | - |
-| - | - | - |
-| - | - | O |
------------------------------------------------------
------------------------------------------------------
-| X | X | O |
-| - | - | - |
-| - | - | O |
------------------------------------------------------
+<pre>------------------- TIC TAC TOE --------------------
+
 ----- Choose one option -----
-1) Do a movement
-2) Undo previous movement
+1) Start a new game
+2) Open a saved game
 2
------------------------------------------------------
-| X | X | - |
-| - | - | - |
-| - | - | O |
------------------------------------------------------
+
+----- Choose one option -----
+1) juego1.mm
+2) juego2.mm
+2
+juego2.mm
+
 ----- Choose one option -----
 1) Do a movement
-2) Undo previous movement
-3) Redo previous movement
+2) Exit game
 1
 -----------------------------------------------------
-| X | X | - |
-| - | - | - |
-| - | - | O |
------------------------------------------------------
------------------------------------------------------
-| X | X | - |
-| O | - | - |
-| - | - | O |
------------------------------------------------------
------ Choose one option -----
-1) Do a movement
-2) Undo previous movement
-1
------------------------------------------------------
-| X | X | - |
-| O | - | - |
-| - | - | O |
+| X | - | O |
+| X | - | O |
+| - | - | - | 
 -----------------------------------------------------
 Enter a coordinate to put a token:
 Row: 1
-Column: 3
+Column: 4
+The coordinates are wrong
+Enter a coordinate to put a token:
+Row: 3
+Column: 1
 -----------------------------------------------------
-| X | X | X |
-| O | - | - |
-| - | - | O |
+| X | - | O |
+| X | - | O |
+| X | - | - |
 -----------------------------------------------------
+Do you want to save the game?? (y/n): n
 X Player: You win!!! :-)</pre>
 </div>
 </div></div></td>
@@ -253,8 +244,8 @@ X Player: You win!!! :-)</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.4.0<br>
-Last updated 2020-08-27 22:00:00 +0200
+Version 0.5.0<br>
+Last updated 2020-08-27 22:30:00 +0200
 </div>
 </div>
 </html>

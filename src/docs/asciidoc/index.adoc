@@ -1,4 +1,4 @@
-= TicTacToe. Requisitos 4. *Cliente/Servidor*
+= TicTacToe. Requisitos 5. *Ficheros*
 Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
@@ -16,8 +16,8 @@ a|
 - link:https://en.wikipedia.org/wiki/Tic-tac-toe[*Wiki*]
 * _Funcionalidad: **Básica** + **undo/redo**_
 * _Interfaz: [line-through]*Gráfica* y **Texto**_
-* _Distribución: **Standalone** + [lime-background]#**Client/Server**#_
-* _Persistencia: **No**_
+* _Distribución: **Standalone** + **Client/Server**_
+* _Persistencia: [lime-background]#**Ficheros**#_
 
 a|
 
@@ -42,12 +42,16 @@ usecase Start
 usecase Movement
 usecase Undo
 usecase Redo
+usecase Exit
+usecase Save
 usecase Result
 
 Player --> Start
 Player --> Movement
 Player --> Undo
 Player --> Redo
+Player --> Exit
+Player --> Save
 Player --> Result
 
 ....
@@ -61,7 +65,11 @@ State0 --> State1 : Start
 State1 --> State1 : Movement
 State1 --> State1 : [undoable]Undo
 State1 --> State1 : [redoable]Redo
+State1 --> State3 : Exit
+State3 --> State4 : Save
+State0 --> State4 : [isTicTacToe]
 State1 --> State2 : Result
+State4 --> State2 : Result
 ....
 
 |===
