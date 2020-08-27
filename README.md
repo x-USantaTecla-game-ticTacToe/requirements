@@ -12,11 +12,11 @@
 </head>
 <body class="book">
 <div id="header">
-<h1>TicTacToe. Requisitos 3. <strong>Undo/Redo</strong></h1>
+<h1>TicTacToe. Requisitos 4. <strong>Cliente/Servidor</strong></h1>
 <div class="details">
 <span id="author" class="author">Santa Tecla</span><br>
 <span id="email" class="email"><a href="mailto:parqueNaturalSantaTecla@gmail.com">parqueNaturalSantaTecla@gmail.com</a></span><br>
-<span id="revnumber">version 0.3.0</span>
+<span id="revnumber">version 0.4.0</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Índice</div>
@@ -48,13 +48,13 @@
 <div class="ulist">
 <ul>
 <li>
-<p><em>Funcionalidad: <strong>Básica</strong> + <span class="lime-background"><strong>undo/redo</strong></span></em></p>
+<p><em>Funcionalidad: <strong>Básica</strong> + <strong>undo/redo</strong></em></p>
 </li>
 <li>
 <p><em>Interfaz: <strong class="line-through">Gráfica</strong> y <strong>Texto</strong></em></p>
 </li>
 <li>
-<p><em>Distribución: <strong>Standalone</strong></em></p>
+<p><em>Distribución: <strong>Standalone</strong> + <span class="lime-background"><strong>Client/Server</strong></span></em></p>
 </li>
 <li>
 <p><em>Persistencia: <strong>No</strong></em></p>
@@ -253,8 +253,8 @@ X Player: You win!!! :-)</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.2.1<br>
-Last updated 2020-07-31 17:35:00 +0200
+Version 0.4.0<br>
+Last updated 2020-08-27 22:00:00 +0200
 </div>
 </div>
 </html>

@@ -1,4 +1,4 @@
-= TicTacToe. Requisitos 3. *Undo/Redo*
+= TicTacToe. Requisitos 4. *Cliente/Servidor*
 Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
@@ -14,9 +14,9 @@ Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 
 a|
 - link:https://en.wikipedia.org/wiki/Tic-tac-toe[*Wiki*]
-* _Funcionalidad: **Básica** + [lime-background]#**undo/redo**#_
+* _Funcionalidad: **Básica** + **undo/redo**_
 * _Interfaz: [line-through]*Gráfica* y **Texto**_
-* _Distribución: **Standalone**_
+* _Distribución: **Standalone** + [lime-background]#**Client/Server**#_
 * _Persistencia: **No**_
 
 a|
