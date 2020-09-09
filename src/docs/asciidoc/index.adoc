@@ -292,6 +292,7 @@ Number of users [0-2] 0
 | - | O | X |
 -----------------------------------------------------
 X Player: You win!!! :-)
+Do you want to continue? (y/n): n
 ....
 
 a|
@@ -338,6 +339,9 @@ Column: 2
 | - | O | - |
 -----------------------------------------------------
 X Player: You win!!! :-)
+Do you want to continue? (y/n): y
+-------------------- TIC TAC TOE --------------------
+Number of users [0-2]
 ....
 
 |===
