@@ -207,6 +207,9 @@ Column: 3
 | - | - | O |
 -----------------------------------------------------
 X Player: You win!!! :-)
+Do you want to continue? (y/n): y
+-------------------- TIC TAC TOE --------------------
+Number of users [0-2]
 ....
 
 |===
