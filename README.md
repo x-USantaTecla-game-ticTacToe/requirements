@@ -336,7 +336,8 @@ Number of users [0-2] 0
 | - | X | O |
 | - | O | X |
 -----------------------------------------------------
-X Player: You win!!! :-)</pre>
+X Player: You win!!! :-)
+Do you want to continue? (y/n): n</pre>
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="literalblock">
@@ -382,7 +383,10 @@ Column: 2
 | - | - | O |
 | - | O | - |
 -----------------------------------------------------
-X Player: You win!!! :-)</pre>
+X Player: You win!!! :-)
+Do you want to continue? (y/n): y
+-------------------- TIC TAC TOE --------------------
+Number of users [0-2]</pre>
 </div>
 </div></div></td>
 </tr>
