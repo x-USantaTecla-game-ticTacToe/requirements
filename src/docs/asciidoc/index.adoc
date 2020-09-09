@@ -42,13 +42,13 @@ usecase Start
 usecase Movement
 usecase Undo
 usecase Redo
-usecase Result
+usecase Resume
 
 Player --> Start
 Player --> Movement
 Player --> Undo
 Player --> Redo
-Player --> Result
+Player --> Resume
 
 ....
 
@@ -61,7 +61,9 @@ State0 --> State1 : Start
 State1 --> State1 : Movement
 State1 --> State1 : [undoable]Undo
 State1 --> State1 : [redoable]Redo
-State1 --> State2 : Result
+State1 --> State2 : [isTicTacToe]Resume
+State2 --> State0 : [isResumed]
+State2 --> [*] : [else]
 ....
 
 |===
