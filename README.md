@@ -240,7 +240,10 @@ Column: 3
 | O | - | - |
 | - | - | O |
 -----------------------------------------------------
-X Player: You win!!! :-)</pre>
+X Player: You win!!! :-)
+Do you want to continue? (y/n): y
+-------------------- TIC TAC TOE --------------------
+Number of users [0-2]</pre>
 </div>
 </div></div></td>
 </tr>
