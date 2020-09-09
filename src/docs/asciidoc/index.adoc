@@ -55,7 +55,6 @@ a|
 [*] --> State0
 State0 --> State1 : Start
 State1 --> State1 : Play
-State1 --> State2 : Resume
 State1 --> State2 : [isTicTacToe]Resume
 State2 --> State0 : [isResumed]
 State2 --> [*] : [else]
