@@ -40,11 +40,11 @@ a|
 actor Player
 usecase Start
 usecase Play
-usecase Result
+usecase Resume
 
 Player --> Start
 Player --> Play
-Player --> Result
+Player --> Resume
 
 ....
 
@@ -55,7 +55,9 @@ a|
 [*] --> State0
 State0 --> State1 : Start
 State1 --> State1 : Play
-State1 --> State2 : Result
+State1 --> State2 : [isTicTacToe]Resume
+State2 --> State0 : [isResumed]
+State2 --> [*] : [else]
 ....
 
 |===
