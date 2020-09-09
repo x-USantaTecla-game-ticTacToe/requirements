@@ -1,4 +1,4 @@
-= TicTacToe. Requisitos 5. *Ficheros*
+= TicTacToe. Requisitos 6. *Bases de Datos*
 Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
@@ -17,7 +17,7 @@ a|
 * _Funcionalidad: **Básica** + **undo/redo**_
 * _Interfaz: [line-through]*Gráfica* y **Texto**_
 * _Distribución: **Standalone** + **Client/Server**_
-* _Persistencia: [lime-background]#**Ficheros**#_
+* _Persistencia: **Ficheros** + [lime-background]#**Bases de Datos**#_
 
 a|
 

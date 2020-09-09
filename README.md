@@ -12,11 +12,11 @@
 </head>
 <body class="book">
 <div id="header">
-<h1>TicTacToe. Requisitos 5. <strong>Ficheros</strong></h1>
+<h1>TicTacToe. Requisitos 6. <strong>Bases de Datos</strong></h1>
 <div class="details">
 <span id="author" class="author">Santa Tecla</span><br>
 <span id="email" class="email"><a href="mailto:parqueNaturalSantaTecla@gmail.com">parqueNaturalSantaTecla@gmail.com</a></span><br>
-<span id="revnumber">version 0.5.0</span>
+<span id="revnumber">version 0.6.0</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Índice</div>
@@ -57,7 +57,7 @@
 <p><em>Distribución: <strong>Standalone</strong> + <strong>Client/Server</strong></em></p>
 </li>
 <li>
-<p><em>Persistencia: <span class="lime-background"><strong>Ficheros</strong></span></em></p>
+<p><em>Persistencia: <strong>Ficheros</strong> + <span class="lime-background"><strong>Bases de Datos</strong></span></em></p>
 </li>
 </ul>
 </div>
@@ -104,7 +104,27 @@
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="consola">Consola</h4>
+<h3 id="prototipo-de-interfaz">Prototipo de Interfaz</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code>&gt;java tictactoe file</code></pre>
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code>&gt;java tictactoe db</code></pre>
+</div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
