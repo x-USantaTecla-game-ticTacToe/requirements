@@ -19,6 +19,31 @@
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
+<h2 id="arquitectura">Modelo del dominio</h2>
+<div class="sect2">
+<h3 id="arquitectura">Vocabulario</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="arquitectura">Estado Inicial</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="arquitectura">Estado Final. Objetivo TicTacToe en 3ª fila</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoFinalTicTacToe.svg" alt="estadoFinalTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
