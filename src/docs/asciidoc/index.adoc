@@ -1,11 +1,284 @@
-= Mastermind. *Guión*
-Santa Tecla <parqueNaturalSantaTecla@gmail.com>
+= TicTacToe.
+Universo Santa Tecla <USantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
 
 :idprefix:
 :idseparator: -
 :imagesdir: images
+
+== Modelo del Dominio
+
+=== Vocabulario
+
+[plantuml, ticTacToeClases, svg]
+....
+TicTacToe *-down-> "2" Player
+TicTacToe *-down-> Board 
+TicTacToe *-down-> Turn
+ 
+Turn -down-> "2" Player
+
+Player -down-> Board
+Player o-down-> "0..3" Piece
+Player *-down-> Goal
+Player *-down-> Color
+
+
+Action <|-down- PutAction
+Action <|-down- MoveAction
+
+Piece *-down-> Color
+
+Color <|-down- X
+Color <|-down- O
+
+Goal ..> "3" PutAction
+Goal ..> "*" MoveAction
+Goal ..> "3" Square
+
+Board *-down-> "3x3" Square
+Square *-down-> Coordinate
+Square o-down-> "0..1" Piece
+
+Action .down.> Piece
+Action .down.> Square : target
+MoveAction .down.> Square : origin
+
+Goal <|-down- Row
+Goal <|-down- Column
+Goal <|-down- Diagonal
+Goal <|-down- InvertedDiagonal
+....
+
+=== Estado Inicial
+
+[plantuml, estadoInicialTicTacToe, svg]
+....
+
+together {
+object ":Square" as Square11
+object ":Square" as Square12
+object ":Square" as Square13
+
+object ":Square" as Square21
+object ":Square" as Square22
+object ":Square" as Square23
+
+object ":Square" as Square31
+object ":Square" as Square32
+object ":Square" as Square33
+
+}
+
+object ":Coordinate" as Coordinate11 {
+row = 1
+column = 1
+}
+object ":Coordinate" as Coordinate12 {
+row = 1
+column = 2
+}
+object ":Coordinate" as Coordinate13 {
+row = 1
+column = 3
+}
+
+object ":Coordinate" as Coordinate21 {
+row = 2
+column = 1
+}
+object ":Coordinate" as Coordinate22 {
+row = 2
+column = 2
+}
+object ":Coordinate" as Coordinate23 {
+row = 2
+column = 3
+}
+
+object ":Coordinate" as Coordinate31 {
+row = 3
+column = 1
+}
+object ":Coordinate" as Coordinate32 {
+row = 3
+column = 2
+}
+object ":Coordinate" as Coordinate33 {
+row = 3
+column = 3
+}
+
+object ":Board" as Board
+
+Board -->  Square11
+Board -->  Square12
+Board -->  Square13
+Board -->  Square21
+Board -->  Square22
+Board -->  Square23
+Board -->  Square31
+Board -->  Square32
+Board -->  Square33
+
+Square11 *-down-> Coordinate11
+Square12 *-down-> Coordinate12
+Square13 *-down-> Coordinate13
+Square21 *-down-> Coordinate21
+Square22 *-down-> Coordinate22
+Square23 *-down-> Coordinate23
+Square31 *-down-> Coordinate31
+Square32 *-down-> Coordinate32
+Square33 *-down-> Coordinate33
+
+Square11 -[hidden]right-> Square12
+Square12 -[hidden]right-> Square13
+Square21 -[hidden]right-> Square22
+Square22 -[hidden]right-> Square23
+Square31 -[hidden]right-> Square32
+Square32 -[hidden]right-> Square33
+
+Square11 -[hidden]down-> Square21
+Square12 -[hidden]down-> Square22
+Square13 -[hidden]down-> Square23
+
+Square21 -[hidden]down-> Square31
+Square22 -[hidden]down-> Square32
+Square23 -[hidden]down-> Square33
+
+....
+
+=== Estado Final. Objetivo TicTacToe en 3ª fila
+
+[plantuml, estadoFinalTicTacToe, svg]
+....
+
+
+together {
+object ":Square" as Square11
+object ":Square" as Square12
+object ":Square" as Square13
+
+object ":Square" as Square21
+object ":Square" as Square22
+object ":Square" as Square23
+
+object ":Square" as Square31
+object ":Square" as Square32
+object ":Square" as Square33
+
+}
+
+object ":Coordinate" as Coordinate11 {
+row = 1
+column = 1
+}
+object ":Coordinate" as Coordinate12 {
+row = 1
+column = 2
+}
+object ":Coordinate" as Coordinate13 {
+row = 1
+column = 3
+}
+
+object ":Coordinate" as Coordinate21 {
+row = 2
+column = 1
+}
+object ":Coordinate" as Coordinate22 {
+row = 2
+column = 2
+}
+object ":Coordinate" as Coordinate23 {
+row = 2
+column = 3
+}
+
+object ":Coordinate" as Coordinate31 {
+row = 3
+column = 1
+}
+object ":Coordinate" as Coordinate32 {
+row = 3
+column = 2
+}
+object ":Coordinate" as Coordinate33 {
+row = 3
+column = 3
+}
+
+object ":Board" as Board
+
+object ":Piece" as Piece1
+object ":Piece" as Piece2
+object ":Piece" as Piece3
+
+object ":X" as X
+
+Piece1 *-down-> X
+Piece2 *-down-> X
+Piece3 *-down-> X
+
+object ":Piece" as Piece1b
+object ":Piece" as Piece2b
+
+object ":O" as O
+
+Piece1b *-down-> O
+Piece2b *-down-> O
+
+
+Board -->  Square11
+Board -->  Square12
+Board -->  Square13
+Board -->  Square21
+Board -->  Square22
+Board -->  Square23
+Board -->  Square31
+Board -->  Square32
+Board -->  Square33
+
+Square11 *-down-> Coordinate11
+Square12 *-down-> Coordinate12
+Square13 *-down-> Coordinate13
+Square21 *-down-> Coordinate21
+Square22 *-down-> Coordinate22
+Square23 *-down-> Coordinate23
+Square31 *-down-> Coordinate31
+Square32 *-down-> Coordinate32
+Square33 *-down-> Coordinate33
+
+Square11 -[hidden]right-> Square12
+Square12 -[hidden]right-> Square13
+Square21 -[hidden]right-> Square22
+Square22 -[hidden]right-> Square23
+Square31 -[hidden]right-> Square32
+Square32 -[hidden]right-> Square33
+
+Square11 -[hidden]down-> Square21
+Square12 -[hidden]down-> Square22
+Square13 -[hidden]down-> Square23
+
+Square21 -[hidden]down-> Square31
+Square22 -[hidden]down-> Square32
+Square23 -[hidden]down-> Square33
+
+Square31 *-down-> Piece1
+Square32 *-down-> Piece2
+Square33 *-down-> Piece3
+
+Square11 *-down-> Piece1b
+Square21 *-down-> Piece2b
+
+....
+
+=== Instrucciones
+
+
+
+== Guión de Implantaciónes
 
 [cols="15,15,30,35" options="header"]
 |===
