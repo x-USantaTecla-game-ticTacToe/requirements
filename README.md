@@ -44,6 +44,14 @@
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="arquitectura">Instrucciones</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="400" height="800">
+</div>
+</div>
+</div>
 <h3 id="arquitectura">Versiones</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>

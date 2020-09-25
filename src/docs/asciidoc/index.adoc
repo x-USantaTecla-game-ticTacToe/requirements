@@ -276,6 +276,38 @@ Square21 *-down-> Piece2b
 
 === Instrucciones
 
+[plantuml,instructions,svg]
+....
+
+@startuml
+(*)  --> "put player X"
+If "is tictactoe player X" then
+--> [Yes] (*)
+else
+--> [No] "put player O"
+ If "is tictactoe player O" then
+ --> [Yes] (*)
+ else
+  If "are all tokens on board" then
+--> [Yes] "move player X"
+  If "is tictactoe player X" then
+--> [Yes] (*)
+else
+--> [No] "move player O"
+ If "is tictactoe player O" then
+ --> [Yes] (*)
+ else
+  --> [No] "move player X"
+ Endif
+Endif
+  else
+  --> [No] "put player X"
+  Endif
+ Endif
+Endif
+@enduml
+....
+
 [cols="15,15,30,35" options="header"]
 |===
 
