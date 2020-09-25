@@ -44,6 +44,7 @@
 </div>
 </div>
 </div>
+<h3 id="arquitectura">Versiones</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
