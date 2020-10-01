@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 = TicTacToe.
 Universo Santa Tecla <USantaTecla@gmail.com>
+=======
+= TicTacToe. *Guión*
+Santa Tecla <parqueNaturalSantaTecla@gmail.com>
+>>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
 :toc-title: Índice
 :toc: left
 
@@ -14,7 +19,11 @@ Universo Santa Tecla <USantaTecla@gmail.com>
 [plantuml, ticTacToeClases, svg]
 ....
 TicTacToe *-down-> "2" Player
+<<<<<<< HEAD
 TicTacToe *-down-> Board 
+=======
+TicTacToe *-down-> Board
+>>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
 TicTacToe *-down-> Turn
  
 Turn -down-> "2" Player
@@ -276,9 +285,43 @@ Square21 *-down-> Piece2b
 
 === Instrucciones
 
+<<<<<<< HEAD
 
 
 == Guión de Implantaciónes
+=======
+[plantuml,instructions,svg]
+....
+
+@startuml
+(*)  --> "put player X"
+If "is tictactoe player X" then
+--> [Yes] (*)
+else
+--> [No] "put player O"
+ If "is tictactoe player O" then
+ --> [Yes] (*)
+ else
+  If "are all tokens on board" then
+--> [Yes] "move player X"
+  If "is tictactoe player X" then
+--> [Yes] (*)
+else
+--> [No] "move player O"
+ If "is tictactoe player O" then
+ --> [Yes] (*)
+ else
+  --> [No] "move player X"
+ Endif
+Endif
+  else
+  --> [No] "put player X"
+  Endif
+ Endif
+Endif
+@enduml
+....
+>>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
 
 [cols="15,15,30,35" options="header"]
 |===

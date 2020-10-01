@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="587px" preserveAspectRatio="none" style="width:1131px;height:587px;" version="1.1" viewBox="0 0 1131 587" width="1131px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bqol629k2evb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="467.5" y="102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="474.5" y="116.457">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="468.5" x2="523.5" y1="121.0938" y2="121.0938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="559.5" y="102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="566.5" y="116.457">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="560.5" x2="615.5" y1="121.0938" y2="121.0938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="651.5" y="102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="658.5" y="116.457">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="652.5" x2="707.5" y1="121.0938" y2="121.0938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="467.5" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="474.5" y="219.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="468.5" x2="523.5" y1="224.5938" y2="224.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="559.5" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="566.5" y="219.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="560.5" x2="615.5" y1="224.5938" y2="224.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="651.5" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="658.5" y="219.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="652.5" x2="707.5" y1="224.5938" y2="224.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="467.5" y="317.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="474.5" y="331.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="468.5" x2="523.5" y1="336.5938" y2="336.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="651.5" y="317.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="658.5" y="331.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="652.5" x2="707.5" y1="336.5938" y2="336.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="559.5" y="317.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="566.5" y="331.957">:Square</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="560.5" x2="615.5" y1="336.5938" y2="336.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="128" y="197"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="135" y="211.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="129" x2="205" y1="216.0938" y2="216.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="134" y="230.4746">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="134" y="243.0527">column = 1</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="241" y="197"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="248" y="211.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="242" x2="318" y1="216.0938" y2="216.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="247" y="230.4746">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="247" y="243.0527">column = 2</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="354" y="197"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="361" y="211.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="355" x2="431" y1="216.0938" y2="216.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="360" y="230.4746">row = 1</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="360" y="243.0527">column = 3</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="45" y="309"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="52" y="323.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="46" x2="122" y1="328.0938" y2="328.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="51" y="342.4746">row = 2</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="51" y="355.0527">column = 1</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="241" y="309"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="248" y="323.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="242" x2="318" y1="328.0938" y2="328.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="247" y="342.4746">row = 2</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="247" y="355.0527">column = 2</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="354" y="309"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="361" y="323.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="355" x2="431" y1="328.0938" y2="328.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="360" y="342.4746">row = 2</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="360" y="355.0527">column = 3</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="304" y="421"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="311" y="435.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="305" x2="381" y1="440.0938" y2="440.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="310" y="454.4746">row = 3</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="310" y="467.0527">column = 1</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="696" y="421"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="703" y="435.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="697" x2="773" y1="440.0938" y2="440.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="702" y="454.4746">row = 3</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="702" y="467.0527">column = 2</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="52.25" style="stroke: #A80036; stroke-width: 1.5;" width="78" x="500" y="421"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="507" y="435.457">:Coordinate</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="501" x2="577" y1="440.0938" y2="440.0938"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="34" x="506" y="454.4746">row = 3</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="54" x="506" y="467.0527">column = 3</text><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="808" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="815" y="21.457">:Board</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="809" x2="857" y1="26.0938" y2="26.0938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="417" y="429.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="424" y="443.957">:Piece</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="418" x2="464" y1="448.5938" y2="448.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="809" y="429.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="816" y="443.957">:Piece</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="810" x2="856" y1="448.5938" y2="448.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="613" y="429.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="620" y="443.957">:Piece</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="614" x2="660" y1="448.5938" y2="448.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="24" x="625" y="533"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="10" x="632" y="547.457">:X</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="626" x2="648" y1="552.0938" y2="552.0938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="7" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="14" y="219.957">:Piece</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="8" x2="54" y1="224.5938" y2="224.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="158" y="317.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="165" y="331.957">:Piece</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="159" x2="205" y1="336.5938" y2="336.5938"/><rect fill="#FEFECE" filter="url(#f1bqol629k2evb)" height="35.0938" style="stroke: #A80036; stroke-width: 1.5;" width="26" x="74" y="429.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="12" x="81" y="443.957">:O</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="75" x2="99" y1="448.5938" y2="448.5938"/><!--MD5=[b05122aa053d47b32989bc17f6af2c2f]
+link Piece1 to X--><path d="M475.4073,469.2656 C475.4073,469.2656 480.178,471.9978 482,473 C527.347,497.9511 581.948,524.0062 612.749,538.3519 " fill="none" id="Piece1-X" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="624.753,543.9098,618.267,536.4982,620.2159,541.8087,614.9053,543.7576,624.753,543.9098" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="620.2159" x2="612.956" y1="541.8087" y2="538.4476"/><polygon fill="#A80036" points="465.072,463.168,468.2071,469.6619,475.4073,469.2656,472.2722,462.7717,465.072,463.168" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[55dbc2e5d29490a8f245fd86056aa9fa]
+link Piece2 to X--><path d="M798.3698,468.8789 C798.3698,468.8789 793.089,471.8618 791,473 C745.788,497.6393 691.594,523.8028 661.044,538.2523 " fill="none" id="Piece2-X" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="649.14,543.8547,658.9865,543.6415,653.664,541.7256,655.5799,536.403,649.14,543.8547" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="653.664" x2="660.9025" y1="541.7256" y2="538.3188"/><polygon fill="#A80036" points="808.75,462.858,801.5529,462.4084,798.3698,468.8789,805.5669,469.3285,808.75,462.858" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fb5d3faaec123a4398c489648376a2be]
+link Piece3 to X--><path d="M637,476.761 C637,476.761 637,506.4636 637,519.5776 " fill="none" id="Piece3-X" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="637,532.7144,641,523.7144,637,527.7144,633,523.7144,637,532.7144" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="637" x2="637" y1="527.7144" y2="519.7144"/><polygon fill="#A80036" points="637,464.761,633,470.761,637,476.761,641,470.761,637,464.761" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a30e751f6120dc755217f8a8cb3facd9]
+link Piece1b to O--><path d="M24.1224,252.4202 C24.1224,252.4202 11.9477,336.03 27,376.5 C34.4393,396.501 50.5064,414.59 64.1431,427.296 " fill="none" id="Piece1b-O" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="73.9141,435.907,69.8058,426.9559,70.1626,432.6015,64.517,432.9583,73.9141,435.907" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="70.1626" x2="64.1606" y1="432.6015" y2="427.312"/><polygon fill="#A80036" points="26.6292,240.685,21.464,245.717,24.1224,252.4202,29.2875,247.3882,26.6292,240.685" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6558dc9c32954fa4c94633f680221aad]
+link Piece2b to O--><path d="M159.7285,361.7888 C159.7285,361.7888 123.631,403.585 108.642,420.941 " fill="none" id="Piece2b-O" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="100.0334,430.909,108.9433,426.7122,103.3015,427.1249,102.8888,421.4831,100.0334,430.909" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="103.3015" x2="108.5305" y1="427.1249" y2="421.07"/><polygon fill="#A80036" points="167.572,352.707,160.623,354.6334,159.7285,361.7888,166.6775,359.8624,167.572,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9f00f453158db019cc737f926bf9b344]
+link Board to Square11--><path d="M807.867,25.576 C755.67,26.664 632.825,34.105 542,78 C531.791,82.934 522.111,90.778 514.288,98.254 " fill="none" id="Board-&gt;Square11" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="510.603,101.88,519.8237,98.4189,514.167,98.3732,514.2127,92.7165,510.603,101.88" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[265f7b6f317decc132767c5f623ca0bc]
+link Board to Square12--><path d="M807.758,28.367 C768.594,33.625 691.696,47.232 634,78 C624.157,83.249 614.66,90.992 606.878,98.305 " fill="none" id="Board-&gt;Square12" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="603.201,101.848,612.4568,98.4821,606.8009,98.3781,606.9049,92.7222,603.201,101.848" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a41aa9ba3b884d8d882a9db495d28b5f]
+link Board to Square13--><path d="M807.774,38.009 C787.891,48.139 759.67,63.123 736,78 C725.869,84.367 715.133,91.92 705.801,98.768 " fill="none" id="Board-&gt;Square13" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="701.619,101.858,711.2345,99.7266,705.6403,98.8866,706.4803,93.2925,701.619,101.858" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2a48127550db072d047e28db107daefc]
+link Board to Square21--><path d="M817.304,42.28 C788.914,72.569 731.453,133.576 726,137 C653.15,182.734 621.006,162.988 542,197 C537.831,198.795 533.538,200.841 529.328,202.971 " fill="none" id="Board-&gt;Square21" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="524.802,205.309,534.634,204.7336,529.2446,203.0148,530.9634,197.6254,524.802,205.309" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ad753e41380b62aa8c2dbe48e4770887]
+link Board to Square22--><path d="M830.524,42.164 C826.118,66.196 814.729,110.592 788,137 C735.746,188.626 700.625,166.067 634,197 C629.883,198.911 625.622,201.028 621.43,203.198 " fill="none" id="Board-&gt;Square22" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="616.917,205.566,626.7451,204.9265,621.3446,203.2429,623.0282,197.8424,616.917,205.566" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7da35c0c2c3faed87a2d1aaa1ed6e28c]
+link Board to Square23--><path d="M844.271,42.305 C858.174,65.344 877.799,107.262 859,137 C827.027,187.577 755.873,208.665 713.537,216.988 " fill="none" id="Board-&gt;Square23" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="708.522,217.941,718.1102,220.1919,713.4342,217.0083,716.6178,212.3323,708.522,217.941" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5070af6906697e6c9c700f9ddd6704a8]
+link Board to Square31--><path d="M858.239,41.784 C869.941,50.873 882.643,63.326 889,78 C899.424,102.061 901.211,113.794 889,137 C808.846,289.327 700.101,240.938 542,309 C537.831,310.795 533.538,312.841 529.328,314.971 " fill="none" id="Board-&gt;Square31" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="524.802,317.309,534.634,316.7336,529.2446,315.0148,530.9634,309.6254,524.802,317.309" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1a6312cdfa05f693b263f27f42f20b15]
+link Board to Square32--><path d="M858.066,27.153 C913.823,31.406 1045.31,44.812 1072,78 C1119.63,137.225 1119.71,189.839 1072,249 C1026.94,304.873 800.268,325.879 713.686,331.941 " fill="none" id="Board-&gt;Square32" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="708.681,332.286,717.9342,335.6593,713.6692,331.9431,717.3855,327.6781,708.681,332.286" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[981ae21fb6fdb24b10d83f99158e49a7]
+link Board to Square33--><path d="M858.111,24.882 C896.261,25.477 967.876,32.945 1001,78 C1046.02,139.232 1050.21,191.087 1001,249 C947.487,311.972 712.181,282.226 634,309 C629.228,310.634 624.362,312.735 619.669,315.023 " fill="none" id="Board-&gt;Square33" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="615.043,317.363,624.8795,316.8693,619.5045,315.1058,621.268,309.7309,615.043,317.363" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[094fd51dec5cb6758b0902982cbf7950]
+link Square11 to Coordinate11--><path d="M455.5965,129.8539 C455.5965,129.8539 303.449,167.948 223,197 C221.451,197.559 219.885,198.142 218.309,198.744 " fill="none" id="Square11-Coordinate11" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="206.17,203.644,216.013,203.9845,210.8065,201.7725,213.0185,196.566,206.17,203.644" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="210.8065" x2="218.225" y1="201.7725" y2="198.778"/><polygon fill="#A80036" points="467.271,127.078,460.5084,124.5744,455.5965,129.8539,462.359,132.3574,467.271,127.078" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ab27c5eee5da0929e420fc712adbbb26]
+link Square12 to Coordinate12--><path d="M548.0405,134.9865 C548.0405,134.9865 543.589,136.484 542,137 C451.3,166.445 425.524,164.153 336,197 C334.454,197.567 332.89,198.157 331.316,198.765 " fill="none" id="Square12-Coordinate12" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="319.189,203.696,329.0328,204.0122,323.8209,201.813,326.02,196.6011,319.189,203.696" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="323.8209" x2="331.2315" y1="201.813" y2="198.8"/><polygon fill="#A80036" points="559.383,131.069,552.4059,129.2469,548.0405,134.9865,555.0176,136.8086,559.383,131.069" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce6232b1a7de4998175bff455bbfb9fd]
+link Square13 to Coordinate13--><path d="M640.0163,134.9116 C640.0163,134.9116 635.58,136.458 634,137 C553.042,164.786 531.049,166.696 451,197 C448.789,197.837 446.539,198.711 444.272,199.608 " fill="none" id="Square13-Coordinate13" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="432.115,204.572,441.9593,204.8721,436.7438,202.6815,438.9344,197.466,432.115,204.572" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="436.7438" x2="444.1505" y1="202.6815" y2="199.6575"/><polygon fill="#A80036" points="651.333,130.92,644.3441,129.1436,640.0163,134.9116,647.0052,136.688,651.333,130.92" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5852f88f6dddd41b26308efcb764cc54]
+link Square21 to Coordinate21--><path d="M457.1798,245.7231 C457.1798,245.7231 451.385,248.155 449,249 C317.125,295.697 273.407,266.878 140,309 C138.429,309.496 136.844,310.023 135.252,310.576 " fill="none" id="Square21-Coordinate21" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="123.029,315.227,132.8632,315.765,127.7022,313.4489,130.0183,308.288,123.029,315.227" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="127.7022" x2="135.179" y1="313.4489" y2="310.6035"/><polygon fill="#A80036" points="468.035,240.608,460.9024,239.5471,457.1798,245.7231,464.3124,246.784,468.035,240.608" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2f77f89dd4fd8aa9197ae7bcfe08a3d1]
+link Square22 to Coordinate22--><path d="M548.9931,245.8886 C548.9931,245.8886 543.93,248.205 542,249 C453.823,285.31 425.524,276.153 336,309 C334.454,309.567 332.89,310.157 331.316,310.765 " fill="none" id="Square22-Coordinate22" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="319.189,315.696,329.0328,316.0122,323.8209,313.813,326.02,308.6011,319.189,315.696" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="323.8209" x2="331.2315" y1="313.813" y2="310.8"/><polygon fill="#A80036" points="559.754,240.578,552.6033,239.6463,548.9931,245.8886,556.1437,246.8203,559.754,240.578" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b02370306a447e34a2c7b78048065bbb]
+link Square23 to Coordinate23--><path d="M640.4564,246.0416 C640.4564,246.0416 635.773,248.235 634,249 C555.41,282.908 531.049,278.696 451,309 C448.789,309.837 446.539,310.711 444.272,311.608 " fill="none" id="Square23-Coordinate23" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="432.115,316.572,441.9593,316.8721,436.7438,314.6815,438.9344,309.466,432.115,316.572" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="436.7438" x2="444.1505" y1="314.6815" y2="311.6575"/><polygon fill="#A80036" points="651.194,240.684,644.0393,239.7836,640.4564,246.0416,647.6111,246.942,651.194,240.684" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dc01c2d16fcb2427f6a9a7949a207b43]
+link Square31 to Coordinate31--><path d="M468.6461,360.5999 C468.6461,360.5999 455.129,371.881 449,376.5 C431.328,389.817 411.185,403.396 393.238,414.975 " fill="none" id="Square31-Coordinate31" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="382.101,422.089,391.8389,420.6149,386.3146,419.3973,387.5322,413.873,382.101,422.089" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="386.3146" x2="393.0565" y1="419.3973" y2="415.0915"/><polygon fill="#A80036" points="477.712,352.738,470.5584,353.647,468.6461,360.5999,475.7997,359.6909,477.712,352.738" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ddc094be38da63e3fb056f9a1ab43589]
+link Square32 to Coordinate32--><path d="M693.7201,363.4399 C693.7201,363.4399 709.326,394.653 716.625,409.25 " fill="none" id="Square32-Coordinate32" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="722.476,420.951,722.0293,411.1123,720.2402,416.4788,714.8737,414.6896,722.476,420.951" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="720.2402" x2="716.6615" y1="416.4788" y2="409.3235"/><polygon fill="#A80036" points="688.353,352.707,687.4589,359.8625,693.7201,363.4399,694.6142,356.2844,688.353,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[45fee7e179397dc4fc1c457f49931fdd]
+link Square33 to Coordinate33--><path d="M575.6747,363.6684 C575.6747,363.6684 561.959,394.46 555.538,408.873 " fill="none" id="Square33-Coordinate33" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="550.158,420.951,557.4743,414.3577,552.1927,416.3837,550.1667,411.1021,550.158,420.951" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="552.1927" x2="555.448" y1="416.3837" y2="409.0765"/><polygon fill="#A80036" points="580.558,352.707,574.4625,356.5599,575.6747,363.6684,581.7701,359.8155,580.558,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[13a5bfcd547bcca90bd72ebe5fcbc39e]
+link Square11 to Square12--><!--MD5=[bc76116199aafd8295781c7dcab3176f]
+link Square12 to Square13--><!--MD5=[c89ffb18fbb7b46681bd5913015ae5e3]
+link Square21 to Square22--><!--MD5=[e010c8769b92a1a5952e305a724ea8e4]
+link Square22 to Square23--><!--MD5=[f50abd7b4c3d728b1750fcedc3b0f127]
+link Square31 to Square32--><!--MD5=[602970f58178e45676872601d2c7aa36]
+link Square32 to Square33--><!--MD5=[0f6bfcf04e14b42cde8cbfcc74aaa622]
+link Square11 to Square21--><!--MD5=[25839071d6f91f37be67e06b1ae5341a]
+link Square12 to Square22--><!--MD5=[f622953a480c4fc89b837fd30211fa77]
+link Square13 to Square23--><!--MD5=[a91b861c62fa236fffcb0f2237862284]
+link Square21 to Square31--><!--MD5=[72223308d08a89680f2dbb886c02d26d]
+link Square22 to Square32--><!--MD5=[090cfe2b176d307a1968440006917c83]
+link Square23 to Square33--><!--MD5=[fa70530dc42fecb5cfe59c51df3423b4]
+link Square31 to Piece1--><path d="M482.2804,363.4401 C482.2804,363.4401 463.405,401.19 455.266,417.468 " fill="none" id="Square31-Piece1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="449.252,429.497,456.8549,423.2364,451.4883,425.025,449.6997,419.6583,449.252,429.497" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="451.4883" x2="455.0655" y1="425.025" y2="417.869"/><polygon fill="#A80036" points="487.647,352.707,481.386,356.2847,482.2804,363.4401,488.5414,359.8624,487.647,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b413b0d45410fddf7b5f451dbea43a9a]
+link Square32 to Piece2--><path d="M712.9805,359.7116 C712.9805,359.7116 774.195,403.722 799.487,421.905 " fill="none" id="Square32-Piece2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="810.045,429.497,805.0728,420.9954,805.9854,426.5781,800.4027,427.4907,810.045,429.497" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="805.9854" x2="799.49" y1="426.5781" y2="421.908"/><polygon fill="#A80036" points="703.237,352.707,705.7739,359.4571,712.9805,359.7116,710.4436,352.9615,703.237,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8237126dfe67c80ca647b87dec1d2835]
+link Square33 to Piece3--><path d="M600.3253,363.6684 C600.3253,363.6684 617.105,401.338 624.318,417.529 " fill="none" id="Square33-Piece3" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="629.648,429.497,629.6398,419.6481,627.6135,424.9296,622.332,422.9034,629.648,429.497" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="627.6135" x2="624.3585" y1="424.9296" y2="417.6215"/><polygon fill="#A80036" points="595.442,352.707,594.2299,359.8155,600.3253,363.6684,601.5375,356.5599,595.442,352.707" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a8cb8c73b2fd089cf7c799cdd6716bcc]
+link Square11 to Piece1b--><path d="M455.3437,127.0312 C455.3437,127.0312 233.769,165.256 110,197 C95.9957,200.592 80.8117,205.216 67.5325,209.509 " fill="none" id="Square11-Piece1b" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="55.0025,213.641,64.8025,214.6211,59.751,212.0751,62.297,207.0236,55.0025,213.641" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="59.751" x2="67.3486" y1="212.0751" y2="209.57"/><polygon fill="#A80036" points="467.185,125.086,460.616,122.1115,455.3437,127.0312,461.9128,130.0057,467.185,125.086" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[55fd063141d7a757ca6dc8c1e47c4647]
+link Square21 to Piece2b--><path d="M456.5994,245.7488 C456.5994,245.7488 451.195,248.138 449,249 C352.267,286.985 318.577,268.192 223,309 C221.227,309.757 219.44,310.581 217.655,311.454 " fill="none" id="Square21-Piece2b" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="206.1,317.732,215.9178,316.9504,210.4935,315.3451,212.0988,309.9208,206.1,317.732" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="210.4935" x2="217.523" y1="315.3451" y2="311.526"/><polygon fill="#A80036" points="467.41,240.54,460.2684,239.5409,456.5994,245.7488,463.741,246.7479,467.41,240.54" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[145be3955ea674465384c8f229e28ce2]
+@startuml
+
+
+together {
+object ":Square" as Square11
+object ":Square" as Square12
+object ":Square" as Square13
+
+object ":Square" as Square21
+object ":Square" as Square22
+object ":Square" as Square23
+
+object ":Square" as Square31
+object ":Square" as Square32
+object ":Square" as Square33
+
+}
+
+object ":Coordinate" as Coordinate11 {
+row = 1
+column = 1
+}
+object ":Coordinate" as Coordinate12 {
+row = 1
+column = 2
+}
+object ":Coordinate" as Coordinate13 {
+row = 1
+column = 3
+}
+
+object ":Coordinate" as Coordinate21 {
+row = 2
+column = 1
+}
+object ":Coordinate" as Coordinate22 {
+row = 2
+column = 2
+}
+object ":Coordinate" as Coordinate23 {
+row = 2
+column = 3
+}
+
+object ":Coordinate" as Coordinate31 {
+row = 3
+column = 1
+}
+object ":Coordinate" as Coordinate32 {
+row = 3
+column = 2
+}
+object ":Coordinate" as Coordinate33 {
+row = 3
+column = 3
+}
+
+object ":Board" as Board
+
+object ":Piece" as Piece1
+object ":Piece" as Piece2
+object ":Piece" as Piece3
+
+object ":X" as X
+
+Piece1 *-down-> X
+Piece2 *-down-> X
+Piece3 *-down-> X
+
+object ":Piece" as Piece1b
+object ":Piece" as Piece2b
+
+object ":O" as O
+
+Piece1b *-down-> O
+Piece2b *-down-> O
+
+
+Board - ->  Square11
+Board - ->  Square12
+Board - ->  Square13
+Board - ->  Square21
+Board - ->  Square22
+Board - ->  Square23
+Board - ->  Square31
+Board - ->  Square32
+Board - ->  Square33
+
+Square11 *-down-> Coordinate11
+Square12 *-down-> Coordinate12
+Square13 *-down-> Coordinate13
+Square21 *-down-> Coordinate21
+Square22 *-down-> Coordinate22
+Square23 *-down-> Coordinate23
+Square31 *-down-> Coordinate31
+Square32 *-down-> Coordinate32
+Square33 *-down-> Coordinate33
+
+Square11 -[hidden]right-> Square12
+Square12 -[hidden]right-> Square13
+Square21 -[hidden]right-> Square22
+Square22 -[hidden]right-> Square23
+Square31 -[hidden]right-> Square32
+Square32 -[hidden]right-> Square33
+
+Square11 -[hidden]down-> Square21
+Square12 -[hidden]down-> Square22
+Square13 -[hidden]down-> Square23
+
+Square21 -[hidden]down-> Square31
+Square22 -[hidden]down-> Square32
+Square23 -[hidden]down-> Square33
+
+Square31 *-down-> Piece1
+Square32 *-down-> Piece2
+Square33 *-down-> Piece3
+
+Square11 *-down-> Piece1b
+Square21 *-down-> Piece2b
+
+@enduml
+
+PlantUML version 1.2020.15(Sun Jun 28 13:39:45 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: windows-1252
+Language: es
+Country: ES
+--></g></svg>

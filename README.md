@@ -19,197 +19,109 @@
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
+<h2 id="arquitectura">Modelo del dominio</h2>
+<div class="sect2">
+<h3 id="arquitectura">Vocabulario</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="arquitectura">Estado Inicial</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="arquitectura">Estado Final. Objetivo TicTacToe en 3ª fila</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/estadoFinalTicTacToe.svg" alt="estadoFinalTicTacToe" width="1000" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="arquitectura">Instrucciones</h3>
+<div class="imageblock">
+<div class="content">
+<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="400" height="800">
+</div>
+</div>
+</div>
+<h3 id="arquitectura">Versiones</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 15.7894%;">
-<col style="width: 15.7894%;">
-<col style="width: 31.5789%;">
-<col style="width: 36.8423%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 60%;">
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Tema</th>
 <th class="tableblock halign-left valign-top">Requisitos</th>
-<th class="tableblock halign-left valign-top">Solución</th>
 <th class="tableblock halign-left valign-top">Incremento</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" rowspan="2"><div class="content"><div class="paragraph">
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="red"><strong>Modelo del Dominio</strong></span></p>
 </div></div></td>
-<td class="tableblock halign-left valign-top" rowspan="2"><div class="content"><div class="paragraph">
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="red">TicTacToe. Requisitos. Versión 1. <strong>Básica</strong></span></p>
 </div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Solucion. Versión 1.1. <strong>domainModel</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Clases del Modelo del Dominio <strong>pero acopladas a tecnologías de interfaz ahora y todas con la Ley del Cambio Continuo y de granos grueso con el advenimiento de nueva funcionalidad </strong></span></p>
+<td class="tableblock halign-left valign-top" ><div class="content"><div class="paragraph">
+<p><span class="red">Versión básica, con interfaz de texto desde la consola, distribución Standalone y sin persistencia de los datos de la aplicación</span></p>
 </div></div></td>
 </tr>
-<tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Solucion. Versión 2.1. <strong>documentView</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Clases Vistas de Texto separadas de los Modelos del Dominio <strong>pero con Modelos de grano grueso con el advenimiento de nueva funcionalidad</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" rowspan="6"><div class="content"><div class="paragraph">
 <p><span class="blue"><strong>Diseño Modular y Orientado a Objetos</strong></span></p>
 </div></div></td>
-<td class="tableblock halign-left valign-top" rowspan="6"><div class="content"><div class="paragraph">
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="blue">TicTacToe. Requisitos. Versión 2. <strong>Gráficos</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 3.2. <strong>dv.withoutFactoryMethod</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clase Vistas de Interfaz Gráfica de Usuario <strong>pero con DRY en Vistas de tecnologías diferentes y con Modelos de grano grueso con el advenimiento de nueva funcionalidad</strong></span></p>
+<p><span class="red">Se añade la interfaz gráfica. Con este requisito funcional se consigue que el usuario pueda tener una interfaz más agradable que una consola de texto</span></p>
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 4.2. <strong>dv.withFactoryMethod</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clase Vista abstracta para Open/Close de sus tecnologías <strong>pero con Modelos de grano grueso con el advenimiento de nueva funcionalidad</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 5.2. <strong>modelViewPresenter.presentationModel</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clases Controladoras entre Vistas y Modelos por cada Caso de Uso <strong>pero con la clase Principal y las Vistas acopladas a cada controlador actual y futuro</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 6.2. <strong>mvp.pm.withFacade</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clase Lógica que encapsula Controladores y Modelos <strong>pero con Vistas con DRY en la Lógica de Control</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 7.2. <strong>mvp.pm.withoutDoubleDispatching</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clase Estado para la Inversión de Control de Vistas a la Lógica <strong>pero violando el Principio de Sustitución de Liskov</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">TicTacToe. Solucion. Versión 8.2. <strong>mvp.pm.withDoubleDispatching</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="blue">Clase Vistador de Controladores para Técnica de Doble Despacho</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" rowspan="7"><div class="content"><div class="paragraph">
+<td class="tableblock halign-left valign-top" rowspan="6"><div class="content"><div class="paragraph">
 <p><strong>Patrones de Diseño</strong></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="green">TicTacToe. Requisitos. Versión 3. <strong>UndoRedo</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="green">TicTacToe. Solucion. Versión 9.3. <strong>mvp.pm.withComposite</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="green">Clase Comando del menú y Controlador Compuesto de ciertos Estados para Open/Close con nuevos Casos de Uso</span></p>
+<p><span class="red">Se implementa la nueva funcionalidad de undo/redo, que permite deshacer y rehacer los estados del programa</span></p>
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" rowspan="2"><div class="content"><div class="paragraph">
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="yellow">TicTacToe. Requisitos. Versión 4. <strong>ClienteServidor</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="yellow">TicTacToe. Solucion. Versión 10.4. <strong>mvp.pm.withoutProxy</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="yellow">Clase TCP/IP para tecnología de Despliegue <strong>pero con Controladores acoplados, poco cohesivos y grano grueso con cada nueva tecnología</strong></span></p>
+<p><span class="red">Distribución de la aplicación en dos partes separadas y comunicadas. La parte de Cliente para la interfaz propia que usa el usuario y el Servidor dedicado al manejo y gestión de los datos</span></p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="yellow">TicTacToe. Solucion. Versión 11.4. <strong>mvp.pm.withProxy</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="yellow">Clases Proxy para Open/Close para nuevas tecnologías de Despliegue</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" rowspan="2"><div class="content"><div class="paragraph">
 <p><span class="purple">TicTacToe. Requisitos. Versión 5. <strong>Ficheros</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="purple">TicTacToe. Solucion. Versión 12.5. <strong>mvp.pm.withoutDAO</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="purple">Clases Vistas y Controladores para la tecnología de persistencia <strong>pero con Modelos de grano grueso, baja cohesión y alto acoplamiento a tecnologías de persistencia de ficheros</strong></span></p>
+<p><span class="red">Poder guardar el estado del programa. Se usan ficheros para el almacenamiento de estos datos y su recuperación</span></p>
 </div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="purple">TicTacToe. Solucion. Versión 13.5. <strong>mvp.pm.withDAO</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="purple">Patrón DAO</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" rowspan="2"><div class="content"><div class="paragraph">
 <p><span class="lime">TicTacToe. Requisitos. Versión 6. <strong>BasesDatos</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="lime">TicTacToe. Solucion. Versión 14.6. <strong>mvp.pm.withoutPrototype</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="lime">Nuevas Vistas y DAOS para la nueva tecnología  <strong>pero con clase Principal acoplada a las tecnologías actuales y futuras de persistencia</strong></span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="lime">TicTacToe. Solucion. Versión 15.6. <strong>mvp.pm.withPrototype</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="lime">Open/Close para arranque con configuración de persistencia</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" rowspan="3"><div class="content"><div class="paragraph">
-<p><span class="red"><strong>Arquitectura del Software</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top" rowspan="3"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Requisitos. Versión 1. <strong>Básica</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Solucion. Versión 16.1. <strong>mvp.pv</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Baile de la Triada</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Solucion. Versión 17.1. <strong>mvp.sc</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Baile de la Triada</span></p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">TicTacToe. Solucion. Versión 18.1. <strong>mvc</strong></span></p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Baile de la Triada</span></p>
+<p><span class="red">Se agrega la posibilidad de guardado en base de datos del estado del programa</span></p>
 </div></div></td>
 </tr>
 </tbody>
