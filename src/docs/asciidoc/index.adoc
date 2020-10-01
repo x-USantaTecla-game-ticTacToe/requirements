@@ -278,11 +278,6 @@ Square21 *-down-> Piece2b
 
 === Instrucciones
 
-<<<<<<< HEAD
-
-
-== Guión de Implantaciónes
-=======
 [plantuml,instructions,svg]
 ....
 
@@ -314,7 +309,6 @@ Endif
 Endif
 @enduml
 ....
->>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
 
 [cols="15,15,30,35" options="header"]
 |===

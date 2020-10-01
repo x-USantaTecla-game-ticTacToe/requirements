@@ -28,7 +28,6 @@
 <li><a href="#instrucciones">Instrucciones</a></li>
 </ul>
 </li>
-<li><a href="#guión-de-implantaciónes">Guión de Implantaciónes</a></li>
 </ul>
 </div>
 </div>
@@ -62,23 +61,10 @@
 </div>
 <div class="sect2">
 <h3 id="instrucciones">Instrucciones</h3>
-<div class="paragraph">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="guión-de-implantaciónes">Guión de Implantaciónes</h2>
-<div class="sectionbody">
-<div class="exampleblock">
-<div class="content">
 <div class="imageblock">
 <div class="content">
 <img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="300" height="803">
 </div>
-</div>
-<div class="paragraph">
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; bc7feb3bc1aaf2a06192df3da6054280a6d640ed</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -279,11 +265,10 @@
 </div>
 </div>
 </div>
-</div>
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br>
-Last updated 2020-10-01 20:55:02 +0200
+Last updated 2020-10-01 21:03:28 +0200
 </div>
 </div>
 </html>
