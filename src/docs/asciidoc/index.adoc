@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-= TicTacToe.
+
+= TicTacToe
 Universo Santa Tecla <USantaTecla@gmail.com>
-=======
-= TicTacToe. *Guión*
-Santa Tecla <parqueNaturalSantaTecla@gmail.com>
->>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
+
 :toc-title: Índice
 :toc: left
 
@@ -19,11 +16,7 @@ Santa Tecla <parqueNaturalSantaTecla@gmail.com>
 [plantuml, ticTacToeClases, svg]
 ....
 TicTacToe *-down-> "2" Player
-<<<<<<< HEAD
-TicTacToe *-down-> Board 
-=======
 TicTacToe *-down-> Board
->>>>>>> bc7feb3bc1aaf2a06192df3da6054280a6d640ed
 TicTacToe *-down-> Turn
  
 Turn -down-> "2" Player
