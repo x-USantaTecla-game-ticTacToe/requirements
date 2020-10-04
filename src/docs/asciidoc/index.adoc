@@ -11,6 +11,8 @@ Universo Santa Tecla <USantaTecla@gmail.com>
 
 == Modelo del Dominio
 
+image::TicTacToe.png[] 
+
 === Vocabulario
 
 [plantuml, ticTacToeClases, svg]
@@ -298,9 +300,7 @@ D --> [*] : [isTicTacToe]
 E --> [*] : [isTicTacToe]
 ....
 
-== Modelo del Dominio
-
-image::TicTacToe.png[]
+== Versión
 
 [cols="20,80" options="header"]
 |===
