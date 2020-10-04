@@ -300,7 +300,7 @@ E --> [*] : [isTicTacToe]
 
 == Modelo del Dominio
 
-[cols="15,15,30,35" options="header"]
+[cols="20,80" options="header"]
 |===
 
 a| Versión
@@ -309,8 +309,8 @@ a| Descripción
 a| [red]#TicTacToe. Requisitos. Versión 1. **Básica**#
 a| [red]#Juego de las 3 en raya con interfaz de consola y con casos de uso: arrancar, jugar y continuar**#
 
-a| [blue]#TicTacToe. Requisitos. Versión 2. **Gráficos**
-#a| [red]#Añadiendo interfaz gráfica**#
+a| [blue]#TicTacToe. Requisitos. Versión 2. **Gráficos**#
+a| [red]#Añadiendo interfaz gráfica**#
 
 a| [green]#TicTacToe. Requisitos. Versión 3. **UndoRedo**#
 a| [green]#Añadiendo funcionalidad con deshacer y rehacer jugadas#
