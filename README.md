@@ -39,7 +39,7 @@
 <h3 id="vocabulario">Vocabulario</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="1104" height="963">
+<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="1130" height="963">
 </div>
 </div>
 </div>
@@ -63,7 +63,7 @@
 <h3 id="instrucciones">Instrucciones</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="300" height="803">
+<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="371" height="764">
 </div>
 </div>
 <table class="tableblock frame-all grid-all stretch">
@@ -268,7 +268,7 @@
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br>
-Last updated 2020-10-01 21:03:28 +0200
+Last updated 2020-10-04 15:19:07 +0200
 </div>
 </div>
 </html>

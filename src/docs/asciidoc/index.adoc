@@ -23,7 +23,7 @@ Turn -down-> "2" Player
 
 Player -down-> Board
 Player o-down-> "0..3" Piece
-Player *-down-> Goal
+Player o-down-> Goal
 Player *-down-> Color
 
 
@@ -49,7 +49,7 @@ MoveAction .down.> Square : origin
 
 Goal <|-down- Row
 Goal <|-down- Column
-Goal <|-down- Diagonal
+Goal <|-down- MainDiagonal
 Goal <|-down- InvertedDiagonal
 ....
 
@@ -281,33 +281,21 @@ Square21 *-down-> Piece2b
 [plantuml,instructions,svg]
 ....
 
-@startuml
-(*)  --> "put player X"
-If "is tictactoe player X" then
---> [Yes] (*)
-else
---> [No] "put player O"
- If "is tictactoe player O" then
- --> [Yes] (*)
- else
-  If "are all tokens on board" then
---> [Yes] "move player X"
-  If "is tictactoe player X" then
---> [Yes] (*)
-else
---> [No] "move player O"
- If "is tictactoe player O" then
- --> [Yes] (*)
- else
-  --> [No] "move player X"
- Endif
-Endif
-  else
-  --> [No] "put player X"
-  Endif
- Endif
-Endif
-@enduml
+state A as " "
+state B as " "
+state C as " "
+state D as " "
+state E as " "
+[*] --> A
+A --> B: put X
+B --> A : put O
+B --> C : [isCompleted]
+C --> D : put 0
+C --> [*] : [isTicTacToe]
+D --> E : move X
+E --> D : move O
+D --> [*] : [isTicTacToe]
+E --> [*] : [isTicTacToe]
 ....
 
 [cols="15,15,30,35" options="header"]
