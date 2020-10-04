@@ -40,7 +40,7 @@
 <h3 id="vocabulario">Vocabulario</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="1130" height="963">
+<<img src="build/docs/asciidoc/images/ticTacToeClases.svg" alt="ticTacToeClases" width="1130" height="963">
 </div>
 </div>
 </div>
@@ -48,7 +48,7 @@
 <h3 id="estado-inicial">Estado Inicial</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1094" height="492">
+<<img src="build/docs/asciidoc/images/estadoInicialTicTacToe.svg" alt="estadoInicialTicTacToe" width="1094" height="492">
 </div>
 </div>
 </div>
@@ -56,7 +56,7 @@
 <h3 id="estado-final-objetivo-tictactoe-en-3ª-fila">Estado Final. Objetivo TicTacToe en 3ª fila</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/estadoFinalTicTacToe.svg" alt="estadoFinalTicTacToe" width="1131" height="587">
+<<img src="build/docs/asciidoc/images/estadoFinalTicTacToe.svg" alt="estadoFinalTicTacToe" width="1131" height="587">
 </div>
 </div>
 </div>
@@ -64,7 +64,7 @@
 <h3 id="instrucciones">Instrucciones</h3>
 <div class="imageblock">
 <div class="content">
-<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="371" height="764">
+<<img src="build/docs/asciidoc/images/instructions.svg" alt="instructions" width="371" height="764">
 </div>
 </div>
 </div>
@@ -73,6 +73,11 @@
 <div class="sect1">
 <h2 id="modelo-del-dominio-2">Modelo del Dominio</h2>
 <div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<<img src="build/docs/asciidoc/images/TicTacToe.png" alt="TicTacToe">
+</div>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -141,7 +146,7 @@
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br>
-Last updated 2020-10-04 15:37:06 +0200
+Last updated 2020-10-04 15:48:11 +0200
 </div>
 </div>
 </html>
