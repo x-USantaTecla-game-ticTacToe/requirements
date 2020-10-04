@@ -1,5 +1,5 @@
 = TicTacToe. Requisitos 1. *Básica*
-Santa Tecla <parqueNaturalSantaTecla@gmail.com>
+Universo Santa Tecla <USantaTecla@gmail.com>
 :toc-title: Índice
 :toc: left
 
@@ -36,7 +36,7 @@ a| Diagrama de Contexto
 a|
 [plantuml,diagramaActoresCasosUso,svg]
 ....
-
+left to right direction 
 actor Player
 usecase Start
 usecase Play
@@ -51,7 +51,9 @@ Player --> Resume
 a|
 [plantuml,diagramaContexto,svg]
 ....
-
+state State0 as " "
+state State1 as " "
+state State2 as " "
 [*] --> State0
 State0 --> State1 : Start
 State1 --> State1 : Play
