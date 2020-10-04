@@ -95,7 +95,7 @@
 <p><span class="red">TicTacToe. Requisitos. Versión 1. <strong>Básica</strong></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p><span class="red">Juego de las 3 en raya con interfaz de consola y con casos de uso: arrancar, jugar y continuar**</span></p>
+<p><span class="red">Juego de las 3 en raya con interfaz de consola y con casos de uso: arrancar, jugar y continuar</span></p>
 </div></div></td>
 </tr>
 <tr>
