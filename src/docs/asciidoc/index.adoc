@@ -309,19 +309,19 @@ a| Versión
 a| Descripción
 
 a| [red]#TicTacToe. Requisitos. Versión 1. **Básica**#
-a| [red]#Juego de las 3 en raya con interfaz de consola y con casos de uso: arrancar, jugar y continuar**#
+a| [red]#Juego de las 3 en raya con interfaz de consola y con casos de uso: arrancar, jugar y continuar#
 
 a| [blue]#TicTacToe. Requisitos. Versión 2. **Gráficos**#
-a| [red]#Añadiendo interfaz gráfica**#
+a| [red]#Añadiendo interfaz gráfica#
 
 a| [green]#TicTacToe. Requisitos. Versión 3. **UndoRedo**#
-a| [green]#Añadiendo funcionalidad con deshacer y rehacer jugadas#
+a| [green]#Añadiendo funcionalidad con deshacer y rehacer jugadas y casos de uso deshacer y rehacer#
 
 a| [yellow]#TicTacToe. Requisitos. Versión 4. **ClienteServidor**#
 a| [yellow]#Añadiendo distribución cliente/servidor#
 
 a| [purple]#TicTacToe. Requisitos. Versión 5. **Ficheros**#
-a| [purple]#Añadiendo funcionalidad con persistencia de ficheros#
+a| [purple]#Añadiendo funcionalidad con persistencia de ficheros y casos de uso salvar y recuperar#
 
 a| [lime]#TicTacToe. Requisitos. Versión 6. **BasesDatos**#
 a| [lime]#Adaptando persistencia con bases de datos#
