@@ -28,7 +28,7 @@
 <li><a href="#instrucciones">Instrucciones</a></li>
 </ul>
 </li>
-<li><a href="#modelo-del-dominio-2">Modelo del Dominio</a></li>
+<li><a href="#versión">Versión</a></li>
 </ul>
 </div>
 </div>
@@ -36,6 +36,11 @@
 <div class="sect1">
 <h2 id="modelo-del-dominio">Modelo del Dominio</h2>
 <div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<<img src="build/docs/asciidoc/images/TicTacToe.png" alt="TicTacToe">
+</div>
+</div>
 <div class="sect2">
 <h3 id="vocabulario">Vocabulario</h3>
 <div class="imageblock">
@@ -71,13 +76,8 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="modelo-del-dominio-2">Modelo del Dominio</h2>
+<h2 id="versión">Versión</h2>
 <div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<<img src="build/docs/asciidoc/images/TicTacToe.png" alt="TicTacToe">
-</div>
-</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -146,7 +146,7 @@
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br>
-Last updated 2020-10-04 15:48:11 +0200
+Last updated 2020-10-04 15:53:22 +0200
 </div>
 </div>
 </html>
