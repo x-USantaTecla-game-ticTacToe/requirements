@@ -300,6 +300,8 @@ E --> [*] : [isTicTacToe]
 
 == Modelo del Dominio
 
+image::TicTacToe.png[]
+
 [cols="20,80" options="header"]
 |===
 
